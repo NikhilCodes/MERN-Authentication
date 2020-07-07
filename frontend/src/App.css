@@ -1,0 +1,64 @@
+.App {
+    text-align: center;
+    background-image: url("images/bg2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color: white;
+    vertical-align: middle;
+}
+
+.AuthFieldsContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(76, 87, 118, 0.4);
+    border-radius: 20px;
+}
+
+.AuthModeButton {
+    height: 35px;
+    width: 49%;
+    outline: none;
+    background-color: rgba(72, 122, 177, 0.63);
+    color: snow;
+    font-family: "Quicksand SemiBold", serif;
+    border-top: none;
+    border-bottom: none;
+}
+
+.AuthFieldsSubContainer {
+    padding: 20px 30px;
+}
+
+.AuthInputBox {
+    height: 28px;
+    width: 180pt;
+    margin-bottom: 14px;
+    background-color: transparent;
+    border: white solid 1.2pt;
+    border-radius: 20px;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    padding: 1pt 1pt 1pt 8pt;
+    font-family: "Quicksand SemiBold", serif;
+}
+
+.AuthInputBox::placeholder {
+    color: rgba(255, 255, 255, 0.75);
+    font-family: "Quicksand SemiBold", serif;
+}
+
+.AuthDetailsSubmitButton {
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    font-family: "Quicksand SemiBold", serif;
+    outline: none;
+    border: none;
+}
