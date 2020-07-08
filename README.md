@@ -8,3 +8,10 @@ A simple yet secure authentication system, implemented using MERN stack.
  - Used MongoDB to store user authentication details and User Infos separately.
  - Used ReactJS to generate a clean UI.
  - Implemented backend using ExpressJS to serve data from database.
+ 
+## Usage
+
+```
+node backend/server.js
+npm start --prefix frontend/
+```

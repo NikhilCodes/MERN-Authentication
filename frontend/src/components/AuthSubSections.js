@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import {Redirect} from "react-router-dom";
 import Axios from "axios";
 import '../App.css';
 
@@ -74,7 +73,7 @@ export class RegisterSpace extends Component {
                  onChange={(e) => this.handleInputDataChange(e)} value={this.state.username}/> <br/>
           <input name="password" type="password" placeholder="password" className="AuthInputBox" spellCheck="false"
                  autoComplete="off"
-                 onChange={(e) => this.handleInputDataChange(e)} value={this.state.password}/>
+                 onChange={(e) => this.handleInputDataChange(e)} value={this.state.password}/> <br/>
 
           <button className="AuthDetailsSubmitButton" onClick={() => {
             let payload = {email: this.state.email, username: this.state.username, password: this.state.password}
