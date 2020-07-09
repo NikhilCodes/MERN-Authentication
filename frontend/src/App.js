@@ -45,7 +45,9 @@ class UserProfile extends Component {
       return (
           <div>
             <h1>Profile</h1>
+            <hr/>
             <h3>Welcome {this.props.data.user.username}</h3>
+            <h3>Email: {this.props.data.user.email}</h3>
           </div>
       )
     } else {
